@@ -20,3 +20,9 @@ onload = () => {
     clearTimeout(c);
   }, 1000);
 };
+document.addEventListener("click", function () {
+  const music = document.getElementById("music");
+  if (music) {
+    music.play();
+  }
+});
